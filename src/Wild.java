@@ -22,6 +22,7 @@ public class Wild extends Animal implements Showable {
         
         for(int i=0 ; i<wildList.size() ; i++) {
             
+            // Add new Comment by ali
             JOptionPane.showMessageDialog(null, i+" ) "+ wildList.get(i).getName() + "\t" + wildList.get(i).getDepartment_of_living());
             
         }
